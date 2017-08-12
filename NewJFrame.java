@@ -331,7 +331,8 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 310, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-
+        JRootPane rootPane = SwingUtilities.getRootPane(btnSave);
+        rootPane.setDefaultButton(btnSave);
         pack();
     }// </editor-fold>                        
 
